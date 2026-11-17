@@ -1,5 +1,5 @@
 
-name: Deploy Mizan to GitHub Pages
+name: Deploy Mizan2 to GitHub Pages
 
 on:
   push:
