@@ -134,8 +134,21 @@
             </section>
         </section>
 
-        <section id="mizan2-sec">
-            
+        <div class="navigation">
+            <button id="show-mizan1" type="button">Dashboard</button>
+            <button id="show-mizan2" type="button">Catalogue</button>
+        </div>
+
+        <section id="mizan2-sec" hidden>
+            <header>
+                <h1>Gestion du catalogue</h1>
+                <button id="add-product-btn" type="button">
+                    Ajouter un article
+                </button>
+            </header>
+
+            <div id="catalogue-status"></div>
+            <div id="products-container"></div>
         </section>
     </main>
     <script type="module" src="./js/main.js"></script>
